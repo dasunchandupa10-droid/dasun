@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Apple Products</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#f5f5f7;
+}
+
+/* Header */
+
+header{
+    background:#000;
+    color:#fff;
+    padding:20px;
+    text-align:center;
+    font-size:30px;
+    font-weight:bold;
+}
+
+/* Title */
+
+.title{
+    text-align:center;
+    padding:50px 20px;
+}
+
+.title h1{
+    font-size:50px;
+    margin-bottom:10px;
+}
+
+.title p{
+    color:#666;
+    font-size:20px;
+}
+
+/* Products */
+
+.products{
+    display:flex;
+    justify-content:center;
+    gap:40px;
+    flex-wrap:wrap;
+    padding:20px 50px 70px;
+}
+
+.card{
+    background:white;
+    width:340px;
+    border-radius:20px;
+    overflow:hidden;
+    text-align:center;
+    transition:.4s;
+    box-shadow:0 10px 25px rgba(0,0,0,.1);
+}
+
+.card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 20px 40px rgba(0,0,0,.2);
+}
+
+.card img{
+    width:100%;
+    height:280px;
+    object-fit:contain;
+    background:white;
+    padding:20px;
+}
+
+.card h2{
+    margin-top:15px;
+    font-size:35px;
+}
+
+.card h4{
+    color:red;
+    margin-top:8px;
+}
+
+.card p{
+    padding:15px;
+    color:#666;
+    line-height:28px;
+}
+
+.price{
+    font-size:35px;
+    font-weight:bold;
+    color:#000;
+    margin-bottom:20px;
+}
+
+.btn{
+    margin-bottom:30px;
+}
+
+.buy{
+
+    background:#0071E3;
+    color:white;
+    border:none;
+    padding:12px 35px;
+    border-radius:30px;
+    cursor:pointer;
+    font-size:17px;
+    margin-right:10px;
+}
+
+.buy:hover{
+    background:#005bb5;
+}
+
+.more{
+
+    background:white;
+    color:#0071E3;
+    border:2px solid #0071E3;
+    padding:12px 30px;
+    border-radius:30px;
+    cursor:pointer;
+    font-size:17px;
+}
+
+.more:hover{
+
+    background:#0071E3;
+    color:white;
+}
+
+footer{
+    background:#000;
+    color:white;
+    text-align:center;
+    padding:25px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+ <i class="fa-brands fa-apple"></i>  Apple Products
+
+</header>
+
+<section class="title">
+ 
+    <i class="fa-brands fa-apple"></i> 
+
+<h1>Latest Apple Devices</h1>
+
+<p>Discover the newest Apple products with amazing performance.</p>
+
+</section>
+
+<section class="products">
+
+<div class="card">
+
+<img src="imgs/apple18.jpg">
+
+<h2>iPhone 17 Pro</h2>
+
+<h4>10% OFF</h4>
+
+<p>
+
+⭐⭐⭐⭐⭐ <br><br>
+
+A19 Pro Chip <br>
+
+48MP Triple Camera <br>
+
+256GB Storage <br>
+
+Super Retina XDR Display
+
+</p>
+
+<div class="price">$999</div>
+
+<div class="btn">
+
+<button class="buy">Buy Now</button>
+
+<button class="more">Learn More</button>
+
+</div>
+
+</div>
+
+<div class="card">
+
+<img src="imgs/ipad2.jpg">
+
+<h2>iPad Pro</h2>
+
+<h4>New Arrival</h4>
+
+<p>
+
+⭐⭐⭐⭐⭐ <br><br>
+
+M4 Chip <br>
+
+13-inch Ultra Retina Display <br>
+
+Apple Pencil Pro Support <br>
+
+Ultra Thin Design
+
+</p>
+
+<div class="price">$899</div>
+
+<div class="btn">
+
+<button class="buy">Buy Now</button>
+
+<button class="more">Learn More</button>
+
+</div>
+
+</div>
+
+<div class="card">
+
+<img src="imgs/macbook.jpg">
+
+<h2>MacBook Air</h2>
+
+<h4>Best Seller</h4>
+
+<p>
+
+⭐⭐⭐⭐⭐ <br><br>
+
+M4 Chip <br>
+
+18 Hours Battery <br>
+
+13.6-inch Liquid Retina <br>
+
+Ultra Lightweight
+
+</p>
+
+<div class="price">$1199</div>
+
+<div class="btn">
+
+<button class="buy">Buy Now</button>
+
+<button class="more">Learn More</button>
+
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+© 2026 Apple Store | Designed by Dasun
+
+</footer>
+
+</body>
+</html>
